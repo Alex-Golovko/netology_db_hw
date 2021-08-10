@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS collection(
-        id SERIAL PRIMARY KEY,
-        collection_name VARCHAR(40) NOT NULL,
+    id SERIAL PRIMARY KEY,
+    collection_name VARCHAR(40) NOT NULL,
     collection_pub_date VARCHAR(4) NOT NULL
 );
 
