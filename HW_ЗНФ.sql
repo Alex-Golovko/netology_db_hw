@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS track(
     id SERIAL PRIMARY KEY,
     track_pub_date VARCHAR(40),
     track_name VARCHAR(40) NOT NULL,
-    track_lenght VARCHAR(10) NOT NULL,
+    track_lenght TIME,
     album_id INTEGER REFERENCES album(id)
 );
 
