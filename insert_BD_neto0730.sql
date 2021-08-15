@@ -30,7 +30,7 @@ INSERT INTO album (album_name, album_year) VALUES ('Тебе', '2021');
 INSERT INTO album (album_name, album_year) VALUES ('Тропы', '2009');
 INSERT INTO album (album_name, album_year) VALUES ('Skibidi', '2019');
 INSERT INTO album (album_name, album_year) VALUES ('20', '2019');
-
+INSERT INTO album (album_name, album_year) VALUES ('Мой', '2020');
 
 INSERT INTO track (track_pub_date, track_name, track_lenght, album_id) 
 VALUES ('2021', 'Ты была права', '01:58', 1);
@@ -62,6 +62,8 @@ INSERT INTO track (track_pub_date, track_name, track_lenght, album_id)
 VALUES ('2019', 'Гимн', '06:10', 3);
 INSERT INTO track (track_pub_date, track_name, track_lenght, album_id) 
 VALUES ('2019', 'Воздушный шар', '03:26', 3);
+INSERT INTO track (track_pub_date, track_name, track_lenght, album_id) 
+VALUES ('2020', 'Мой', '04:35', 11);
 
 INSERT INTO singer_genre (singer_id, genre_id) VALUES (1, 1);
 INSERT INTO singer_genre (singer_id, genre_id) VALUES (2, 1);
