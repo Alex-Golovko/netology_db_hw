@@ -63,7 +63,7 @@ VALUES ('2019', 'Гимн', '06:10', 3);
 INSERT INTO track (track_pub_date, track_name, track_lenght, album_id) 
 VALUES ('2019', 'Воздушный шар', '03:26', 3);
 INSERT INTO track (track_pub_date, track_name, track_lenght, album_id) 
-VALUES ('2020', 'Мой', '04:35', 11);
+VALUES ('2020', 'мой', '04:35', 11);
 
 INSERT INTO singer_genre (singer_id, genre_id) VALUES (1, 1);
 INSERT INTO singer_genre (singer_id, genre_id) VALUES (2, 1);
